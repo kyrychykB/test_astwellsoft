@@ -6,18 +6,17 @@
     <br>
 </p>
 
-<p>Database:</p>
+Database:
     <p>- db dump in __db folder</p>
-    <p>or</p>
-    <p>- you can run migrations</p>
+    <p>- or you can run migrations</p>
 <br>    
-<p>Admin panel:</p>
+Admin panel:
     <p>- url: */admin</p>
     <p>- if you use dump:</p>
-        <p>login: admin</p>
-        <p>pass: 21admin</p>
+        <div>login: admin</div>
+        <div>pass: 21admin</div>
     <p>- if you run migrations:</p>
-         <p>you ned to SignUp and add test content by yourself</p>
+         you ned to SignUp and add test content by yourself
 
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-basic/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
