@@ -61,7 +61,7 @@ class WorkSearch extends Work
 
         if($this->status == Work::STATUS_OPEN) {
             $query->andWhere(
-                'time_open >= :time_open' , [':time_open' => $this->time_open]
+                'time_open <= :time_open' , [':time_open' => $this->time_open]
             );
 
             $query->andWhere(
